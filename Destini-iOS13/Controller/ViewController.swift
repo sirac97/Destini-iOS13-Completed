@@ -13,8 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var storyLabel: UILabel!
     @IBOutlet weak var choice1Button: UIButton!
     @IBOutlet weak var choice2Button: UIButton!
+    @IBOutlet weak var choice3Button: UIButton!
     
     var storyBrain = StoryBrain()
+    var StoryTell = StoryTell()
     
     override func viewDidLoad() {
         super.viewDidLoad()
